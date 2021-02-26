@@ -1,0 +1,10 @@
+{
+  "_template": "gh:cjolowicz/cookiecutter-hypermodern-python",
+  "author": "Lucas Bignone",
+  "email": "lbignone@iafe.uba.ar",
+  "friendly_name": "Dataviz Panel",
+  "github_user": "lbignone",
+  "package_name": "dataviz_panel",
+  "project_name": "dataviz-panel",
+  "version": "0.0.0"
+}
