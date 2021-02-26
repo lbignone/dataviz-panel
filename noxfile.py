@@ -14,7 +14,7 @@ python_versions = ["3.8", "3.7", "3.6"]
 nox.options.sessions = (
     "pre-commit",
     "safety",
-    "mypy",
+    # "mypy",
     "tests",
     "typeguard",
     "xdoctest",
