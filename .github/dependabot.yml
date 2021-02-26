@@ -16,3 +16,5 @@ updates:
     directory: "/"
     schedule:
       interval: daily
+
+# Dummy commit needed to enable Dependabot
