@@ -21,6 +21,8 @@ Changelog = "https://github.com/lbignone/dataviz-panel/releases"
 [tool.poetry.dependencies]
 python = "^3.6.1"
 click = "^7.0"
+panel = "^0.10.3"
+hvplot = "^0.7.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.2"
