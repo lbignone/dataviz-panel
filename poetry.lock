@@ -98,7 +98,7 @@ d = ["aiohttp (>=3.3.2)", "aiohttp-cors"]
 
 [[package]]
 name = "bokeh"
-version = "2.3.0"
+version = "2.2.3"
 description = "Interactive plots and applications in the browser from Python"
 category = "main"
 optional = false
@@ -485,7 +485,7 @@ smmap = ">=3.0.1,<4"
 
 [[package]]
 name = "gitpython"
-version = "3.1.13"
+version = "3.1.14"
 description = "Python Git Library"
 category = "dev"
 optional = false
@@ -504,7 +504,7 @@ python-versions = "*"
 
 [[package]]
 name = "holoviews"
-version = "1.14.1"
+version = "1.14.2"
 description = "Stop plotting your data - annotate your data and let it visualize itself."
 category = "main"
 optional = false
@@ -519,21 +519,21 @@ param = ">=1.9.3,<2.0"
 pyviz-comms = ">=0.7.3"
 
 [package.extras]
-all = ["deepdiff", "jsonschema (==2.6.0)", "shapely", "mock", "netcdf4", "twine", "dask", "ipython (==5.4.1)", "pillow", "ibis-framework (>=1.3)", "scikit-image", "pyarrow (<1.0)", "path.py", "notebook", "bokeh (>=1.1.0)", "nbconvert (==5.3.1)", "nbsmoke (>=0.2.0)", "dash (>=1.16)", "networkx", "plotly (>=4.0)", "flake8 (==3.6.0)", "matplotlib (>=2.2,<3.1)", "scipy", "nose", "datashader (>=0.11.1)", "matplotlib (>=2.2)", "xarray (>=0.10.4)", "ipython (>=5.4.0)", "keyring", "awscli", "coveralls", "cftime", "streamz (>=0.5.0)", "spatialpandas", "rfc3986", "nbconvert (<6)", "ffmpeg"]
+all = ["matplotlib (>=2.2,<3.1)", "ipython (>=5.4.0)", "deepdiff", "awscli", "keyring", "cftime", "flake8 (==3.6.0)", "nbconvert (==5.3.1)", "xarray (>=0.10.4,<0.17.0)", "notebook", "nose", "mock", "dask", "networkx", "spatialpandas", "shapely", "ipython (==5.4.1)", "path.py", "scikit-image", "plotly (>=4.0)", "rfc3986", "netcdf4", "jsonschema (==2.6.0)", "streamz (>=0.5.0)", "nbconvert (<6)", "ibis-framework (>=1.3)", "dash (>=1.16)", "twine", "coveralls", "pillow", "ffmpeg", "nbsmoke (>=0.2.0)", "scipy", "matplotlib (>=2.2)", "datashader (>=0.11.1)", "bokeh (>=1.1.0)", "pyarrow (<1.0)"]
 basic_tests = ["nose", "mock", "flake8 (==3.6.0)", "coveralls", "path.py", "matplotlib (>=2.2,<3.1)", "nbsmoke (>=0.2.0)", "nbconvert (<6)", "twine", "rfc3986", "keyring", "matplotlib (>=2.1)", "bokeh (>=1.1.0)", "pandas", "ipython (>=5.4.0)", "notebook"]
 build = ["param (>=1.7.0)", "setuptools (>=30.3.0)", "pyct (>=0.4.4)", "python (<3.8)"]
-doc = ["ipython (>=5.4.0)", "notebook", "matplotlib (>=2.2)", "bokeh (>=1.1.0)", "networkx", "pillow", "xarray (>=0.10.4)", "plotly (>=4.0)", "dash (>=1.16)", "streamz (>=0.5.0)", "datashader (>=0.11.1)", "ffmpeg", "cftime", "netcdf4", "dask", "scipy", "shapely", "scikit-image", "spatialpandas", "pyarrow (<1.0)", "ibis-framework (>=1.3)", "nbsite (>0.5.2)", "sphinx", "sphinx-holoviz-theme", "mpl-sample-data (>=3.1.3)", "awscli", "pscript", "graphviz", "bokeh (>2.2)", "nbconvert (<6.0)"]
-examples = ["ipython (>=5.4.0)", "notebook", "matplotlib (>=2.2)", "bokeh (>=1.1.0)", "networkx", "pillow", "xarray (>=0.10.4)", "plotly (>=4.0)", "dash (>=1.16)", "streamz (>=0.5.0)", "datashader (>=0.11.1)", "ffmpeg", "cftime", "netcdf4", "dask", "scipy", "shapely", "scikit-image", "spatialpandas", "pyarrow (<1.0)", "ibis-framework (>=1.3)"]
-extras = ["ipython (>=5.4.0)", "notebook", "matplotlib (>=2.2)", "bokeh (>=1.1.0)", "networkx", "pillow", "xarray (>=0.10.4)", "plotly (>=4.0)", "dash (>=1.16)", "streamz (>=0.5.0)", "datashader (>=0.11.1)", "ffmpeg", "cftime", "netcdf4", "dask", "scipy", "shapely", "scikit-image", "spatialpandas", "pyarrow (<1.0)", "ibis-framework (>=1.3)", "pscript (==0.7.1)"]
+doc = ["ipython (>=5.4.0)", "notebook", "matplotlib (>=2.2)", "bokeh (>=1.1.0)", "networkx", "pillow", "xarray (>=0.10.4,<0.17.0)", "plotly (>=4.0)", "dash (>=1.16)", "streamz (>=0.5.0)", "datashader (>=0.11.1)", "ffmpeg", "cftime", "netcdf4", "dask", "scipy", "shapely", "scikit-image", "spatialpandas", "pyarrow (<1.0)", "ibis-framework (>=1.3)", "nbsite (>=0.6.8a36)", "sphinx", "sphinx-holoviz-theme", "mpl-sample-data (>=3.1.3)", "awscli", "pscript", "graphviz", "bokeh (>2.2)", "nbconvert (<6.0)"]
+examples = ["ipython (>=5.4.0)", "notebook", "matplotlib (>=2.2)", "bokeh (>=1.1.0)", "networkx", "pillow", "xarray (>=0.10.4,<0.17.0)", "plotly (>=4.0)", "dash (>=1.16)", "streamz (>=0.5.0)", "datashader (>=0.11.1)", "ffmpeg", "cftime", "netcdf4", "dask", "scipy", "shapely", "scikit-image", "spatialpandas", "pyarrow (<1.0)", "ibis-framework (>=1.3)"]
+extras = ["ipython (>=5.4.0)", "notebook", "matplotlib (>=2.2)", "bokeh (>=1.1.0)", "networkx", "pillow", "xarray (>=0.10.4,<0.17.0)", "plotly (>=4.0)", "dash (>=1.16)", "streamz (>=0.5.0)", "datashader (>=0.11.1)", "ffmpeg", "cftime", "netcdf4", "dask", "scipy", "shapely", "scikit-image", "spatialpandas", "pyarrow (<1.0)", "ibis-framework (>=1.3)", "pscript (==0.7.1)"]
 nbtests = ["ipython (>=5.4.0)", "notebook", "matplotlib (>=2.2)", "bokeh (>=1.1.0)", "nose", "awscli", "deepdiff", "nbconvert (==5.3.1)", "jsonschema (==2.6.0)", "ipython (==5.4.1)"]
 notebook = ["ipython (>=5.4.0)", "notebook"]
 recommended = ["ipython (>=5.4.0)", "notebook", "matplotlib (>=2.2)", "bokeh (>=1.1.0)"]
 tests = ["nose", "mock", "flake8 (==3.6.0)", "coveralls", "path.py", "matplotlib (>=2.2,<3.1)", "nbsmoke (>=0.2.0)", "nbconvert (<6)", "twine", "rfc3986", "keyring"]
-unit_tests = ["ipython (>=5.4.0)", "notebook", "matplotlib (>=2.2)", "bokeh (>=1.1.0)", "networkx", "pillow", "xarray (>=0.10.4)", "plotly (>=4.0)", "dash (>=1.16)", "streamz (>=0.5.0)", "datashader (>=0.11.1)", "ffmpeg", "cftime", "netcdf4", "dask", "scipy", "shapely", "scikit-image", "spatialpandas", "pyarrow (<1.0)", "ibis-framework (>=1.3)", "nose", "mock", "flake8 (==3.6.0)", "coveralls", "path.py", "matplotlib (>=2.2,<3.1)", "nbsmoke (>=0.2.0)", "nbconvert (<6)", "twine", "rfc3986", "keyring"]
+unit_tests = ["ipython (>=5.4.0)", "notebook", "matplotlib (>=2.2)", "bokeh (>=1.1.0)", "networkx", "pillow", "xarray (>=0.10.4,<0.17.0)", "plotly (>=4.0)", "dash (>=1.16)", "streamz (>=0.5.0)", "datashader (>=0.11.1)", "ffmpeg", "cftime", "netcdf4", "dask", "scipy", "shapely", "scikit-image", "spatialpandas", "pyarrow (<1.0)", "ibis-framework (>=1.3)", "nose", "mock", "flake8 (==3.6.0)", "coveralls", "path.py", "matplotlib (>=2.2,<3.1)", "nbsmoke (>=0.2.0)", "nbconvert (<6)", "twine", "rfc3986", "keyring"]
 
 [[package]]
 name = "hvplot"
-version = "0.7.0"
+version = "0.7.1"
 description = "A high-level plotting API for the PyData ecosystem built on HoloViews."
 category = "main"
 optional = false
@@ -547,20 +547,20 @@ numpy = ">=1.15"
 pandas = "*"
 
 [package.extras]
-all = ["coveralls", "dask", "datashader (>=0.6.5)", "flake8", "geopandas", "geoviews (>=1.6.0)", "intake", "intake-parquet", "intake-xarray", "nbsite (>=0.5.1)", "nbsmoke (>=0.2.0)", "networkx", "nose", "notebook (>=5.4)", "panel", "param (>=1.6.1)", "parameterized", "pillow", "pyepsg", "pygraphviz", "pytest", "python-snappy", "rasterio", "s3fs", "scikit-image", "scipy", "selenium", "setuptools", "spatialpandas", "sphinx-holoviz-theme", "streamz (>=0.3.0)", "tornado (<6.0)", "xarray"]
-build = ["param (>=1.6.1)", "setuptools"]
-doc = ["geoviews (>=1.6.0)", "panel", "geopandas", "xarray", "networkx", "streamz (>=0.3.0)", "intake", "intake-parquet", "intake-xarray", "dask", "datashader (>=0.6.5)", "notebook (>=5.4)", "rasterio", "s3fs", "scipy", "pillow", "selenium", "spatialpandas", "scikit-image", "python-snappy", "pyepsg", "pygraphviz", "nbsite (>=0.5.1)", "sphinx-holoviz-theme", "tornado (<6.0)"]
-examples = ["geoviews (>=1.6.0)", "panel", "geopandas", "xarray", "networkx", "streamz (>=0.3.0)", "intake", "intake-parquet", "intake-xarray", "dask", "datashader (>=0.6.5)", "notebook (>=5.4)", "rasterio", "s3fs", "scipy", "pillow", "selenium", "spatialpandas", "scikit-image", "python-snappy", "pyepsg"]
-examples_extra = ["geoviews (>=1.6.0)", "panel", "geopandas", "xarray", "networkx", "streamz (>=0.3.0)", "intake", "intake-parquet", "intake-xarray", "dask", "datashader (>=0.6.5)", "notebook (>=5.4)", "rasterio", "s3fs", "scipy", "pillow", "selenium", "spatialpandas", "scikit-image", "python-snappy", "pyepsg", "pygraphviz"]
+all = ["coveralls", "dask", "datashader (>=0.6.5)", "flake8", "geopandas", "geoviews (>=1.6.0)", "intake", "intake-parquet", "intake-xarray", "nbsite (>=0.5.1)", "nbsmoke (>=0.2.0)", "networkx", "nose", "notebook (>=5.4)", "panel", "param (>=1.6.1)", "parameterized", "pillow", "pyct (>=0.4.4)", "pyepsg", "pygraphviz", "pytest", "python-snappy", "rasterio", "s3fs", "scikit-image", "scipy", "selenium", "setuptools", "spatialpandas", "sphinx-holoviz-theme", "streamz (>=0.3.0)", "tornado (<6.0)", "xarray (<0.17.0)"]
+build = ["param (>=1.6.1)", "pyct (>=0.4.4)", "setuptools"]
+doc = ["geoviews (>=1.6.0)", "panel", "geopandas", "xarray (<0.17.0)", "networkx", "streamz (>=0.3.0)", "intake", "intake-parquet", "intake-xarray", "dask", "datashader (>=0.6.5)", "notebook (>=5.4)", "rasterio", "s3fs", "scipy", "pillow", "selenium", "spatialpandas", "scikit-image", "python-snappy", "pyepsg", "pygraphviz", "nbsite (>=0.5.1)", "sphinx-holoviz-theme", "tornado (<6.0)"]
+examples = ["geoviews (>=1.6.0)", "panel", "geopandas", "xarray (<0.17.0)", "networkx", "streamz (>=0.3.0)", "intake", "intake-parquet", "intake-xarray", "dask", "datashader (>=0.6.5)", "notebook (>=5.4)", "rasterio", "s3fs", "scipy", "pillow", "selenium", "spatialpandas", "scikit-image", "python-snappy", "pyepsg"]
+examples_extra = ["geoviews (>=1.6.0)", "panel", "geopandas", "xarray (<0.17.0)", "networkx", "streamz (>=0.3.0)", "intake", "intake-parquet", "intake-xarray", "dask", "datashader (>=0.6.5)", "notebook (>=5.4)", "rasterio", "s3fs", "scipy", "pillow", "selenium", "spatialpandas", "scikit-image", "python-snappy", "pyepsg", "pygraphviz"]
 tests = ["coveralls", "nose", "flake8", "parameterized", "pytest", "nbsmoke (>=0.2.0)"]
 
 [[package]]
 name = "identify"
-version = "1.5.14"
+version = "2.1.0"
 description = "File identification library for Python"
 category = "dev"
 optional = false
-python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,>=2.7"
+python-versions = ">=3.6.1"
 
 [package.extras]
 license = ["editdistance"]
@@ -610,7 +610,7 @@ testing = ["pytest (>=3.5,!=3.7.3)", "pytest-checkdocs (>=1.2.3)", "pytest-flake
 
 [[package]]
 name = "importlib-resources"
-version = "5.1.0"
+version = "5.1.1"
 description = "Read resources from Python packages"
 category = "dev"
 optional = false
@@ -621,7 +621,7 @@ zipp = {version = ">=0.4", markers = "python_version < \"3.8\""}
 
 [package.extras]
 docs = ["sphinx", "jaraco.packaging (>=8.2)", "rst.linker (>=1.9)"]
-testing = ["pytest (>=3.5,!=3.7.3)", "pytest-checkdocs (>=1.2.3)", "pytest-flake8", "pytest-cov", "pytest-enabler", "pytest-black (>=0.3.7)", "pytest-mypy"]
+testing = ["pytest (>=4.6)", "pytest-checkdocs (>=1.2.3)", "pytest-flake8", "pytest-cov", "pytest-enabler", "pytest-black (>=0.3.7)", "pytest-mypy"]
 
 [[package]]
 name = "iniconfig"
@@ -803,14 +803,14 @@ test = ["pytest (>=4.0.2)", "pytest-xdist", "hypothesis (>=3.58)"]
 
 [[package]]
 name = "panel"
-version = "0.11.0"
+version = "0.10.3"
 description = "A high level app and dashboarding solution for Python."
 category = "main"
 optional = false
 python-versions = ">=3.6"
 
 [package.dependencies]
-bokeh = ">=2.3.0,<2.4.0"
+bokeh = ">=2.2.2"
 markdown = "*"
 param = ">=1.10.0"
 pyct = ">=0.4.4"
@@ -819,12 +819,12 @@ requests = "*"
 tqdm = "*"
 
 [package.extras]
-all = ["altair", "channels", "codecov", "datashader", "django", "flake8", "folium", "graphviz", "holoviews", "holoviews (>1.14.1)", "hvplot", "ipyleaflet", "ipympl", "ipython (>=7.0)", "ipyvolume", "ipywidgets", "ipywidgets-bokeh", "jupyter-bokeh", "lxml", "matplotlib", "nbconvert (<6.0)", "nbsite (>=0.6.1)", "nbsmoke (>=0.2.0)", "notebook (>=5.4)", "pandas", "parameterized", "phantomjs", "pillow", "plotly", "pytest", "pytest-cov", "pyvista", "scikit-learn", "scipy", "selenium", "sphinx-holoviz-theme", "streamz", "twine", "vega-datasets", "vtk", "xarray (<0.17)"]
-build = ["param (>=1.9.2)", "pyct (>=0.4.4)", "setuptools (>=30.3.0)", "bokeh (>=2.0.0)", "pyviz-comms (>=0.6.0)"]
-doc = ["notebook (>=5.4)", "holoviews (>1.14.1)", "matplotlib", "pillow", "plotly", "nbsite (>=0.6.1)", "nbconvert (<6.0)", "sphinx-holoviz-theme", "selenium", "phantomjs", "graphviz", "lxml"]
-examples = ["hvplot", "plotly", "altair", "streamz", "vega-datasets", "vtk", "scikit-learn", "datashader", "jupyter-bokeh", "django", "channels", "pyvista", "ipywidgets", "ipywidgets-bokeh", "ipyvolume", "ipyleaflet", "xarray (<0.17)"]
-recommended = ["notebook (>=5.4)", "holoviews (>1.14.1)", "matplotlib", "pillow", "plotly"]
-tests = ["flake8", "parameterized", "pytest", "scipy", "nbsmoke (>=0.2.0)", "pytest-cov", "codecov", "folium", "ipympl", "twine", "pandas", "ipython (>=7.0)", "holoviews"]
+all = ["altair", "channels", "codecov", "datashader", "django", "flake8", "folium", "graphviz", "holoviews (>=1.13.2)", "hvplot", "ipyleaflet", "ipympl", "ipython (>=7.0)", "ipyvolume", "ipywidgets", "ipywidgets-bokeh", "jupyter-bokeh", "lxml", "matplotlib", "nbconvert (<6.0)", "nbsite (>=0.6.1)", "nbsmoke (>=0.2.0)", "notebook (>=5.4)", "pandas", "parameterized", "phantomjs", "pillow", "plotly", "pytest", "pytest-cov", "pyvista", "scikit-learn", "scipy", "selenium", "sphinx-holoviz-theme", "streamz", "twine", "vega-datasets", "vtk"]
+build = ["param (>=1.9.2)", "pyct (>=0.4.4)", "setuptools (>=30.3.0)", "bokeh (>=2.0.0)", "pyviz-comms (>=0.6.0)", "nodejs (>=10.13.0)"]
+doc = ["notebook (>=5.4)", "holoviews (>=1.13.2)", "matplotlib", "pillow", "plotly", "nbsite (>=0.6.1)", "nbconvert (<6.0)", "sphinx-holoviz-theme", "selenium", "phantomjs", "graphviz", "lxml"]
+examples = ["hvplot", "plotly", "altair", "streamz", "vega-datasets", "vtk", "scikit-learn", "datashader", "jupyter-bokeh", "django", "channels", "pyvista", "ipywidgets", "ipywidgets-bokeh", "ipyvolume", "ipyleaflet"]
+recommended = ["notebook (>=5.4)", "holoviews (>=1.13.2)", "matplotlib", "pillow", "plotly"]
+tests = ["flake8", "parameterized", "pytest", "scipy", "nbsmoke (>=0.2.0)", "pytest-cov", "codecov", "folium", "ipympl", "twine", "pandas", "ipython (>=7.0)"]
 
 [[package]]
 name = "param"
@@ -882,7 +882,7 @@ flake8-polyfill = ">=1.0.2,<2"
 
 [[package]]
 name = "pillow"
-version = "8.1.0"
+version = "8.1.1"
 description = "Python Imaging Library (Fork)"
 category = "main"
 optional = false
@@ -1531,7 +1531,7 @@ testing = ["pytest (>=3.5,!=3.7.3)", "pytest-checkdocs (>=1.2.3)", "pytest-flake
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.6.1, <3.9"
-content-hash = "59a460ea339e2e15cf47b280d28d7a6c4605de5ce6995a91c3f2b4ddee52a58e"
+content-hash = "84350f989f16c9e58e9653c86bfe369db2aa21c4b33c5823292442a19175a362"
 
 [metadata.files]
 alabaster = [
@@ -1566,7 +1566,7 @@ black = [
     {file = "black-20.8b1.tar.gz", hash = "sha256:1c02557aa099101b9d21496f8a914e9ed2222ef70336404eeeac8edba836fbea"},
 ]
 bokeh = [
-    {file = "bokeh-2.3.0.tar.gz", hash = "sha256:dd417708f90702190222b1068a645acae99e66d4b58d7a336d545aeaa04e9b40"},
+    {file = "bokeh-2.2.3.tar.gz", hash = "sha256:c4a3f97afe5f525019dd58ee8c4e3d43f53fe1b1ac264ccaae9b02c07b2abc17"},
 ]
 cached-property = [
     {file = "cached-property-1.5.2.tar.gz", hash = "sha256:9fa5755838eecbb2d234c3aa390bd80fbd3ac6b6869109bfc1b499f7bd89a130"},
@@ -1727,24 +1727,24 @@ gitdb = [
     {file = "gitdb-4.0.5.tar.gz", hash = "sha256:c9e1f2d0db7ddb9a704c2a0217be31214e91a4fe1dea1efad19ae42ba0c285c9"},
 ]
 gitpython = [
-    {file = "GitPython-3.1.13-py3-none-any.whl", hash = "sha256:c5347c81d232d9b8e7f47b68a83e5dc92e7952127133c5f2df9133f2c75a1b29"},
-    {file = "GitPython-3.1.13.tar.gz", hash = "sha256:8621a7e777e276a5ec838b59280ba5272dd144a18169c36c903d8b38b99f750a"},
+    {file = "GitPython-3.1.14-py3-none-any.whl", hash = "sha256:3283ae2fba31c913d857e12e5ba5f9a7772bbc064ae2bb09efafa71b0dd4939b"},
+    {file = "GitPython-3.1.14.tar.gz", hash = "sha256:be27633e7509e58391f10207cd32b2a6cf5b908f92d9cd30da2e514e1137af61"},
 ]
 heapdict = [
     {file = "HeapDict-1.0.1-py3-none-any.whl", hash = "sha256:6065f90933ab1bb7e50db403b90cab653c853690c5992e69294c2de2b253fc92"},
     {file = "HeapDict-1.0.1.tar.gz", hash = "sha256:8495f57b3e03d8e46d5f1b2cc62ca881aca392fd5cc048dc0aa2e1a6d23ecdb6"},
 ]
 holoviews = [
-    {file = "holoviews-1.14.1-py2.py3-none-any.whl", hash = "sha256:d170d9097a636a0030ec89ba9d0555982de1c5890d3a5602bfe5964d77df022a"},
-    {file = "holoviews-1.14.1.tar.gz", hash = "sha256:9e5c45b87fd4dcebf29827adf8c7fedd7abcf0d30ba6324c89cda49031205d95"},
+    {file = "holoviews-1.14.2-py2.py3-none-any.whl", hash = "sha256:51ede0384df759cdeda02fa6aad74fc4f23d5a1af9c64a670f750bb4c612dfd0"},
+    {file = "holoviews-1.14.2.tar.gz", hash = "sha256:64f85cf2c99b083b96f26cd26452aec4b41ced6d9e57f56ae8d72b88defc61c9"},
 ]
 hvplot = [
-    {file = "hvplot-0.7.0-py2.py3-none-any.whl", hash = "sha256:ee2bd2a413b99fefa8bc5b69829dd670b4bf950b83857a1ba6a7669ae5195c03"},
-    {file = "hvplot-0.7.0.tar.gz", hash = "sha256:1c709bebb737ebd71a0433f2333ed15f03dd3c431d4646c41c2b9fcbae4a29b7"},
+    {file = "hvplot-0.7.1-py2.py3-none-any.whl", hash = "sha256:04a0925cfd535bf42805f825e361f31c305dbcfba7fdd74ade94081d0350ea0f"},
+    {file = "hvplot-0.7.1.tar.gz", hash = "sha256:cdb61183d3cdb1296c7f63c6aab59ee72b7b79b9ddc18abce2ebd3214e8de9db"},
 ]
 identify = [
-    {file = "identify-1.5.14-py2.py3-none-any.whl", hash = "sha256:e0dae57c0397629ce13c289f6ddde0204edf518f557bfdb1e56474aa143e77c3"},
-    {file = "identify-1.5.14.tar.gz", hash = "sha256:de7129142a5c86d75a52b96f394d94d96d497881d2aaf8eafe320cdbe8ac4bcc"},
+    {file = "identify-2.1.0-py2.py3-none-any.whl", hash = "sha256:2a5fdf2f5319cc357eda2550bea713a404392495961022cf2462624ce62f0f46"},
+    {file = "identify-2.1.0.tar.gz", hash = "sha256:2179e7359471ab55729f201b3fdf7dc2778e221f868410fedcb0987b791ba552"},
 ]
 idna = [
     {file = "idna-2.10-py2.py3-none-any.whl", hash = "sha256:b97d804b1e9b523befed77c48dacec60e6dcb0b5391d57af6a65a312a90648c0"},
@@ -1776,8 +1776,8 @@ importlib-metadata = [
     {file = "importlib_metadata-3.7.0.tar.gz", hash = "sha256:24499ffde1b80be08284100393955842be4a59c7c16bbf2738aad0e464a8e0aa"},
 ]
 importlib-resources = [
-    {file = "importlib_resources-5.1.0-py3-none-any.whl", hash = "sha256:885b8eae589179f661c909d699a546cf10d83692553e34dca1bf5eb06f7f6217"},
-    {file = "importlib_resources-5.1.0.tar.gz", hash = "sha256:bfdad047bce441405a49cf8eb48ddce5e56c696e185f59147a8b79e75e9e6380"},
+    {file = "importlib_resources-5.1.1-py3-none-any.whl", hash = "sha256:67bcf65e7b9f7f2ea54a342254c7e87607819955469034bc581fae26e1743306"},
+    {file = "importlib_resources-5.1.1.tar.gz", hash = "sha256:563c5579cd40a7d5c6256ea6519b510152b6968103ab540b9771a50093a09056"},
 ]
 iniconfig = [
     {file = "iniconfig-1.1.1-py2.py3-none-any.whl", hash = "sha256:011e24c64b7f47f6ebd835bb12a743f2fbe9a26d4cecaa7f53bc4f35ee9da8b3"},
@@ -2026,8 +2026,8 @@ pandas = [
     {file = "pandas-1.1.5.tar.gz", hash = "sha256:f10fc41ee3c75a474d3bdf68d396f10782d013d7f67db99c0efbfd0acb99701b"},
 ]
 panel = [
-    {file = "panel-0.11.0-py2.py3-none-any.whl", hash = "sha256:81cb006b85f8d8592fcc4db34ebcdafc9c3c1dbbae824d1b72e3e7191c6fc904"},
-    {file = "panel-0.11.0.tar.gz", hash = "sha256:e120c78dee066cfa53053b88779c1883fc58428d077f2ce0b5708b6e52fe0673"},
+    {file = "panel-0.10.3-py2.py3-none-any.whl", hash = "sha256:0a97efd48ad9e88289c7e37b488a70eaa6e9946c8b3f886e184d5fd31aea1301"},
+    {file = "panel-0.10.3.tar.gz", hash = "sha256:3619d8d3aec631ba047b294163ddecfa62727ca89576bff4a8c08e84416eb212"},
 ]
 param = [
     {file = "param-1.10.1-py2.py3-none-any.whl", hash = "sha256:fdfdb9544e7bdc0a1e5df7ced1c4840aa106625192b8efe0b6e2479f1519dc37"},
@@ -2050,38 +2050,39 @@ pep8-naming = [
     {file = "pep8_naming-0.11.1-py2.py3-none-any.whl", hash = "sha256:f43bfe3eea7e0d73e8b5d07d6407ab47f2476ccaeff6937c84275cd30b016738"},
 ]
 pillow = [
-    {file = "Pillow-8.1.0-cp36-cp36m-macosx_10_10_x86_64.whl", hash = "sha256:d355502dce85ade85a2511b40b4c61a128902f246504f7de29bbeec1ae27933a"},
-    {file = "Pillow-8.1.0-cp36-cp36m-manylinux1_i686.whl", hash = "sha256:93a473b53cc6e0b3ce6bf51b1b95b7b1e7e6084be3a07e40f79b42e83503fbf2"},
-    {file = "Pillow-8.1.0-cp36-cp36m-manylinux1_x86_64.whl", hash = "sha256:2353834b2c49b95e1313fb34edf18fca4d57446675d05298bb694bca4b194174"},
-    {file = "Pillow-8.1.0-cp36-cp36m-manylinux2014_aarch64.whl", hash = "sha256:1d208e670abfeb41b6143537a681299ef86e92d2a3dac299d3cd6830d5c7bded"},
-    {file = "Pillow-8.1.0-cp36-cp36m-win32.whl", hash = "sha256:dd9eef866c70d2cbbea1ae58134eaffda0d4bfea403025f4db6859724b18ab3d"},
-    {file = "Pillow-8.1.0-cp36-cp36m-win_amd64.whl", hash = "sha256:b09e10ec453de97f9a23a5aa5e30b334195e8d2ddd1ce76cc32e52ba63c8b31d"},
-    {file = "Pillow-8.1.0-cp37-cp37m-macosx_10_10_x86_64.whl", hash = "sha256:b02a0b9f332086657852b1f7cb380f6a42403a6d9c42a4c34a561aa4530d5234"},
-    {file = "Pillow-8.1.0-cp37-cp37m-manylinux1_i686.whl", hash = "sha256:ca20739e303254287138234485579b28cb0d524401f83d5129b5ff9d606cb0a8"},
-    {file = "Pillow-8.1.0-cp37-cp37m-manylinux1_x86_64.whl", hash = "sha256:604815c55fd92e735f9738f65dabf4edc3e79f88541c221d292faec1904a4b17"},
-    {file = "Pillow-8.1.0-cp37-cp37m-manylinux2014_aarch64.whl", hash = "sha256:cf6e33d92b1526190a1de904df21663c46a456758c0424e4f947ae9aa6088bf7"},
-    {file = "Pillow-8.1.0-cp37-cp37m-win32.whl", hash = "sha256:47c0d93ee9c8b181f353dbead6530b26980fe4f5485aa18be8f1fd3c3cbc685e"},
-    {file = "Pillow-8.1.0-cp37-cp37m-win_amd64.whl", hash = "sha256:96d4dc103d1a0fa6d47c6c55a47de5f5dafd5ef0114fa10c85a1fd8e0216284b"},
-    {file = "Pillow-8.1.0-cp38-cp38-macosx_10_10_x86_64.whl", hash = "sha256:7916cbc94f1c6b1301ac04510d0881b9e9feb20ae34094d3615a8a7c3db0dcc0"},
-    {file = "Pillow-8.1.0-cp38-cp38-manylinux1_i686.whl", hash = "sha256:3de6b2ee4f78c6b3d89d184ade5d8fa68af0848f9b6b6da2b9ab7943ec46971a"},
-    {file = "Pillow-8.1.0-cp38-cp38-manylinux1_x86_64.whl", hash = "sha256:cdbbe7dff4a677fb555a54f9bc0450f2a21a93c5ba2b44e09e54fcb72d2bd13d"},
-    {file = "Pillow-8.1.0-cp38-cp38-manylinux2014_aarch64.whl", hash = "sha256:f50e7a98b0453f39000619d845be8b06e611e56ee6e8186f7f60c3b1e2f0feae"},
-    {file = "Pillow-8.1.0-cp38-cp38-win32.whl", hash = "sha256:cb192176b477d49b0a327b2a5a4979552b7a58cd42037034316b8018ac3ebb59"},
-    {file = "Pillow-8.1.0-cp38-cp38-win_amd64.whl", hash = "sha256:6c5275bd82711cd3dcd0af8ce0bb99113ae8911fc2952805f1d012de7d600a4c"},
-    {file = "Pillow-8.1.0-cp39-cp39-macosx_10_10_x86_64.whl", hash = "sha256:165c88bc9d8dba670110c689e3cc5c71dbe4bfb984ffa7cbebf1fac9554071d6"},
-    {file = "Pillow-8.1.0-cp39-cp39-manylinux1_i686.whl", hash = "sha256:5e2fe3bb2363b862671eba632537cd3a823847db4d98be95690b7e382f3d6378"},
-    {file = "Pillow-8.1.0-cp39-cp39-manylinux1_x86_64.whl", hash = "sha256:7612520e5e1a371d77e1d1ca3a3ee6227eef00d0a9cddb4ef7ecb0b7396eddf7"},
-    {file = "Pillow-8.1.0-cp39-cp39-manylinux2014_aarch64.whl", hash = "sha256:d673c4990acd016229a5c1c4ee8a9e6d8f481b27ade5fc3d95938697fa443ce0"},
-    {file = "Pillow-8.1.0-cp39-cp39-win32.whl", hash = "sha256:dc577f4cfdda354db3ae37a572428a90ffdbe4e51eda7849bf442fb803f09c9b"},
-    {file = "Pillow-8.1.0-cp39-cp39-win_amd64.whl", hash = "sha256:22d070ca2e60c99929ef274cfced04294d2368193e935c5d6febfd8b601bf865"},
-    {file = "Pillow-8.1.0-pp36-pypy36_pp73-macosx_10_10_x86_64.whl", hash = "sha256:a3d3e086474ef12ef13d42e5f9b7bbf09d39cf6bd4940f982263d6954b13f6a9"},
-    {file = "Pillow-8.1.0-pp36-pypy36_pp73-manylinux2010_i686.whl", hash = "sha256:731ca5aabe9085160cf68b2dbef95fc1991015bc0a3a6ea46a371ab88f3d0913"},
-    {file = "Pillow-8.1.0-pp36-pypy36_pp73-manylinux2010_x86_64.whl", hash = "sha256:bba80df38cfc17f490ec651c73bb37cd896bc2400cfba27d078c2135223c1206"},
-    {file = "Pillow-8.1.0-pp37-pypy37_pp73-macosx_10_10_x86_64.whl", hash = "sha256:c3d911614b008e8a576b8e5303e3db29224b455d3d66d1b2848ba6ca83f9ece9"},
-    {file = "Pillow-8.1.0-pp37-pypy37_pp73-manylinux2010_i686.whl", hash = "sha256:39725acf2d2e9c17356e6835dccebe7a697db55f25a09207e38b835d5e1bc032"},
-    {file = "Pillow-8.1.0-pp37-pypy37_pp73-manylinux2010_x86_64.whl", hash = "sha256:81c3fa9a75d9f1afafdb916d5995633f319db09bd773cb56b8e39f1e98d90820"},
-    {file = "Pillow-8.1.0-pp37-pypy37_pp73-win32.whl", hash = "sha256:b6f00ad5ebe846cc91763b1d0c6d30a8042e02b2316e27b05de04fa6ec831ec5"},
-    {file = "Pillow-8.1.0.tar.gz", hash = "sha256:887668e792b7edbfb1d3c9d8b5d8c859269a0f0eba4dda562adb95500f60dbba"},
+    {file = "Pillow-8.1.1-cp36-cp36m-macosx_10_10_x86_64.whl", hash = "sha256:14415e9e28410232370615dbde0cf0a00e526f522f665460344a5b96973a3086"},
+    {file = "Pillow-8.1.1-cp36-cp36m-manylinux1_i686.whl", hash = "sha256:924fc33cb4acaf6267b8ca3b8f1922620d57a28470d5e4f49672cea9a841eb08"},
+    {file = "Pillow-8.1.1-cp36-cp36m-manylinux1_x86_64.whl", hash = "sha256:df534e64d4f3e84e8f1e1a37da3f541555d947c1c1c09b32178537f0f243f69d"},
+    {file = "Pillow-8.1.1-cp36-cp36m-manylinux2014_aarch64.whl", hash = "sha256:4fe74636ee71c57a7f65d7b21a9f127d842b4fb75511e5d256ace258826eb352"},
+    {file = "Pillow-8.1.1-cp36-cp36m-win32.whl", hash = "sha256:3e759bcc03d6f39bc751e56d86bc87252b9a21c689a27c5ed753717a87d53a5b"},
+    {file = "Pillow-8.1.1-cp36-cp36m-win_amd64.whl", hash = "sha256:292f2aa1ae5c5c1451cb4b558addb88c257411d3fd71c6cf45562911baffc979"},
+    {file = "Pillow-8.1.1-cp37-cp37m-macosx_10_10_x86_64.whl", hash = "sha256:8211cac9bf10461f9e33fe9a3af6c5131f3fdd0d10672afc2abb2c70cf95c5ca"},
+    {file = "Pillow-8.1.1-cp37-cp37m-manylinux1_i686.whl", hash = "sha256:d30f30c044bdc0ab8f3924e1eeaac87e0ff8a27e87369c5cac4064b6ec78fd83"},
+    {file = "Pillow-8.1.1-cp37-cp37m-manylinux1_x86_64.whl", hash = "sha256:7094bbdecb95ebe53166e4c12cf5e28310c2b550b08c07c5dc15433898e2238e"},
+    {file = "Pillow-8.1.1-cp37-cp37m-manylinux2014_aarch64.whl", hash = "sha256:1022f8f6dc3c5b0dcf928f1c49ba2ac73051f576af100d57776e2b65c1f76a8d"},
+    {file = "Pillow-8.1.1-cp37-cp37m-win32.whl", hash = "sha256:a7d690b2c5f7e4a932374615fedceb1e305d2dd5363c1de15961725fe10e7d16"},
+    {file = "Pillow-8.1.1-cp37-cp37m-win_amd64.whl", hash = "sha256:436b0a2dd9fe3f7aa6a444af6bdf53c1eb8f5ced9ea3ef104daa83f0ea18e7bc"},
+    {file = "Pillow-8.1.1-cp38-cp38-macosx_10_10_x86_64.whl", hash = "sha256:c448d2b335e21951416a30cd48d35588d122a912d5fe9e41900afacecc7d21a1"},
+    {file = "Pillow-8.1.1-cp38-cp38-manylinux1_i686.whl", hash = "sha256:bb18422ad00c1fecc731d06592e99c3be2c634da19e26942ba2f13d805005cf2"},
+    {file = "Pillow-8.1.1-cp38-cp38-manylinux1_x86_64.whl", hash = "sha256:3ec87bd1248b23a2e4e19e774367fbe30fddc73913edc5f9b37470624f55dc1f"},
+    {file = "Pillow-8.1.1-cp38-cp38-manylinux2014_aarch64.whl", hash = "sha256:99ce3333b40b7a4435e0a18baad468d44ab118a4b1da0af0a888893d03253f1d"},
+    {file = "Pillow-8.1.1-cp38-cp38-win32.whl", hash = "sha256:2f0d7034d5faae9a8d1019d152ede924f653df2ce77d3bba4ce62cd21b5f94ae"},
+    {file = "Pillow-8.1.1-cp38-cp38-win_amd64.whl", hash = "sha256:07872f1d8421db5a3fe770f7480835e5e90fddb58f36c216d4a2ac0d594de474"},
+    {file = "Pillow-8.1.1-cp39-cp39-macosx_10_10_x86_64.whl", hash = "sha256:69da5b1d7102a61ce9b45deb2920a2012d52fd8f4201495ea9411d0071b0ec22"},
+    {file = "Pillow-8.1.1-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:2a40d7d4b17db87f5b9a1efc0aff56000e1d0d5ece415090c102aafa0ccbe858"},
+    {file = "Pillow-8.1.1-cp39-cp39-manylinux1_i686.whl", hash = "sha256:01bb0a34f1a6689b138c0089d670ae2e8f886d2666a9b2f2019031abdea673c4"},
+    {file = "Pillow-8.1.1-cp39-cp39-manylinux1_x86_64.whl", hash = "sha256:43b3c859912e8bf754b3c5142df624794b18eb7ae07cfeddc917e1a9406a3ef2"},
+    {file = "Pillow-8.1.1-cp39-cp39-manylinux2014_aarch64.whl", hash = "sha256:3b13d89d97b551e02549d1f0edf22bed6acfd6fd2e888cd1e9a953bf215f0e81"},
+    {file = "Pillow-8.1.1-cp39-cp39-win32.whl", hash = "sha256:c143c409e7bc1db784471fe9d0bf95f37c4458e879ad84cfae640cb74ee11a26"},
+    {file = "Pillow-8.1.1-cp39-cp39-win_amd64.whl", hash = "sha256:1c5e3c36f02c815766ae9dd91899b1c5b4652f2a37b7a51609f3bd467c0f11fb"},
+    {file = "Pillow-8.1.1-pp36-pypy36_pp73-macosx_10_10_x86_64.whl", hash = "sha256:8cf77e458bd996dc85455f10fe443c0c946f5b13253773439bcbec08aa1aebc2"},
+    {file = "Pillow-8.1.1-pp36-pypy36_pp73-manylinux2010_i686.whl", hash = "sha256:c10af40ee2f1a99e1ae755ab1f773916e8bca3364029a042cd9161c400416bd8"},
+    {file = "Pillow-8.1.1-pp36-pypy36_pp73-manylinux2010_x86_64.whl", hash = "sha256:ff83dfeb04c98bb3e7948f876c17513a34e9a19fd92e292288649164924c1b39"},
+    {file = "Pillow-8.1.1-pp37-pypy37_pp73-macosx_10_10_x86_64.whl", hash = "sha256:b9af590adc1e46898a1276527f3cfe2da8048ae43fbbf9b1bf9395f6c99d9b47"},
+    {file = "Pillow-8.1.1-pp37-pypy37_pp73-manylinux2010_i686.whl", hash = "sha256:172acfaf00434a28dddfe592d83f2980e22e63c769ff4a448ddf7b7a38ffd165"},
+    {file = "Pillow-8.1.1-pp37-pypy37_pp73-manylinux2010_x86_64.whl", hash = "sha256:33fdbd4f5608c852d97264f9d2e3b54e9e9959083d008145175b86100b275e5b"},
+    {file = "Pillow-8.1.1-pp37-pypy37_pp73-win32.whl", hash = "sha256:59445af66b59cc39530b4f810776928d75e95f41e945f0c32a3de4aceb93c15d"},
+    {file = "Pillow-8.1.1.tar.gz", hash = "sha256:f6fc18f9c9c7959bf58e6faf801d14fafb6d4717faaf6f79a68c8bb2a13dcf20"},
 ]
 pluggy = [
     {file = "pluggy-0.13.1-py2.py3-none-any.whl", hash = "sha256:966c145cd83c96502c3c3868f50408687b38434af77734af1e9ca461a4081d2d"},
