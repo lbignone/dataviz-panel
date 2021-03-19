@@ -261,7 +261,7 @@ python-versions = ">=3.6, <3.7"
 
 [[package]]
 name = "datashader"
-version = "0.12.0"
+version = "0.12.1"
 description = "Data visualization toolchain based on aggregating into a grid"
 category = "main"
 optional = false
@@ -1532,7 +1532,7 @@ testing = ["pytest (>=3.5,!=3.7.3)", "pytest-checkdocs (>=1.2.3)", "pytest-flake
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.6.1, <3.9"
-content-hash = "a80129a675a40596d46aced23408b40f39fe4f9be5d9af7eaa8c472d400c1879"
+content-hash = "ad7e160d645514f9776f9c0a7f75f9638e22895a67e548a7a7b8cd8b415a405f"
 
 [metadata.files]
 alabaster = [
@@ -1671,8 +1671,8 @@ dataclasses = [
     {file = "dataclasses-0.8.tar.gz", hash = "sha256:8479067f342acf957dc82ec415d355ab5edb7e7646b90dc6e2fd1d96ad084c97"},
 ]
 datashader = [
-    {file = "datashader-0.12.0-py2.py3-none-any.whl", hash = "sha256:ca71bec34f9339ce6c30ad3652ae796743cc6c406ce728526c8ef9701a49a88e"},
-    {file = "datashader-0.12.0.tar.gz", hash = "sha256:0a757a9deddc6ccb68554043a977f89f7b6510ccee2a9ec7f09bbb42bce7f5eb"},
+    {file = "datashader-0.12.1-py2.py3-none-any.whl", hash = "sha256:a19e89ddf44a817c8136db8fd4727d08ca38022248b9b3648038438ab58a7b1b"},
+    {file = "datashader-0.12.1.tar.gz", hash = "sha256:a135612876dc3e4b16ccb9ddb70de50519825c8c1be251b49aefa550bcf8a39a"},
 ]
 datashape = [
     {file = "datashape-0.5.2.tar.gz", hash = "sha256:2356ea690c3cf003c1468a243a9063144235de45b080b3652de4f3d44e57d783"},
