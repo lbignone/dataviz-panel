@@ -20,7 +20,7 @@ Changelog = "https://github.com/lbignone/dataviz-panel/releases"
 [tool.poetry.dependencies]
 python = "^3.6.2, <3.9"
 click = "^7.0"
-panel = "^0.11.1"
+panel = "^0.11.3"
 datashader = "^0.12.1"
 
 [tool.poetry.dev-dependencies]
