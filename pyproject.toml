@@ -46,7 +46,7 @@ pre-commit-hooks = "^3.4.0"
 sphinx-rtd-theme = "^0.5.1"
 sphinx-click = "^2.7.1"
 Pygments = "^2.8.1"
-jupyterlab = "^3.0.13"
+jupyterlab = "^3.0.14"
 
 [tool.poetry.scripts]
 dataviz-panel = "dataviz_panel.__main__:main"
