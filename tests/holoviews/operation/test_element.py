@@ -5,7 +5,7 @@ from holoviews import Points
 from holoviews.element.comparison import ComparisonTestCase
 from holoviews.plotting import bokeh  # NOQA Needed to register backend
 
-from dataviz_panel.operation import minimap
+from dataviz_panel.holoviews.operation import minimap
 
 
 class TestMinimap(ComparisonTestCase):
