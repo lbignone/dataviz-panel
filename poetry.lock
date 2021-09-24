@@ -309,7 +309,7 @@ python-versions = ">=3.6,<4.0"
 
 [[package]]
 name = "dask"
-version = "2021.8.1"
+version = "2021.9.1"
 description = "Parallel PyData with Task Scheduling"
 category = "main"
 optional = false
@@ -318,7 +318,7 @@ python-versions = ">=3.7"
 [package.dependencies]
 bokeh = {version = ">=1.0.0,<2.0.0 || >2.0.0", optional = true, markers = "extra == \"complete\""}
 cloudpickle = ">=1.1.1"
-distributed = {version = "2021.08.1", optional = true, markers = "extra == \"complete\""}
+distributed = {version = "2021.09.1", optional = true, markers = "extra == \"complete\""}
 fsspec = ">=0.6.0"
 jinja2 = {version = "*", optional = true, markers = "extra == \"complete\""}
 numpy = {version = ">=1.18", optional = true, markers = "extra == \"complete\""}
@@ -330,10 +330,10 @@ toolz = ">=0.8.2"
 
 [package.extras]
 array = ["numpy (>=1.18)"]
-complete = ["bokeh (>=1.0.0,!=2.0.0)", "distributed (==2021.08.1)", "jinja2", "numpy (>=1.18)", "pandas (>=1.0)"]
+complete = ["bokeh (>=1.0.0,!=2.0.0)", "distributed (==2021.09.1)", "jinja2", "numpy (>=1.18)", "pandas (>=1.0)"]
 dataframe = ["numpy (>=1.18)", "pandas (>=1.0)"]
 diagnostics = ["bokeh (>=1.0.0,!=2.0.0)", "jinja2"]
-distributed = ["distributed (==2021.08.1)"]
+distributed = ["distributed (==2021.09.1)"]
 test = ["pytest", "pytest-rerunfailures", "pytest-xdist"]
 
 [[package]]
@@ -416,7 +416,7 @@ python-versions = "*"
 
 [[package]]
 name = "distributed"
-version = "2021.8.1"
+version = "2021.9.1"
 description = "Distributed scheduler for Dask"
 category = "main"
 optional = false
@@ -425,7 +425,7 @@ python-versions = ">=3.7"
 [package.dependencies]
 click = ">=6.6"
 cloudpickle = ">=1.5.0"
-dask = "2021.08.1"
+dask = "2021.09.1"
 jinja2 = "*"
 msgpack = ">=0.6.0"
 psutil = ">=5.0"
@@ -2210,7 +2210,7 @@ viz = ["matplotlib", "seaborn", "nc-time-axis"]
 
 [[package]]
 name = "xdoctest"
-version = "0.15.4"
+version = "0.15.9"
 description = "A rewrite of the builtin doctest module"
 category = "dev"
 optional = false
@@ -2222,11 +2222,11 @@ Pygments = {version = "*", optional = true, markers = "extra == \"colors\""}
 six = "*"
 
 [package.extras]
-all = ["six", "pytest", "pytest-cov", "codecov", "scikit-build", "cmake", "ninja", "pybind11", "pygments", "colorama", "nbformat", "nbconvert", "jupyter-client", "ipython", "ipykernel"]
+all = ["pygments", "cmake", "codecov", "ninja", "pybind11", "scikit-build", "six", "colorama", "pytest", "pytest", "pytest-cov", "pytest", "pytest", "pytest-cov", "typing", "ipython", "ipykernel", "jupyter-client", "nbconvert", "nbformat", "pytest", "pytest-cov"]
 colors = ["pygments", "colorama"]
-jupyter = ["nbformat", "nbconvert", "jupyter-client", "ipython", "ipykernel"]
-optional = ["pygments", "colorama", "nbformat", "nbconvert", "jupyter-client", "ipython", "ipykernel"]
-tests = ["pytest", "pytest-cov", "codecov", "scikit-build", "cmake", "ninja", "pybind11", "nbformat", "nbconvert", "jupyter-client", "ipython", "ipykernel"]
+jupyter = ["ipython", "ipykernel", "jupyter-client", "nbconvert", "nbformat"]
+optional = ["pygments", "colorama", "ipython", "ipykernel", "jupyter-client", "nbconvert", "nbformat"]
+tests = ["cmake", "codecov", "ninja", "pybind11", "scikit-build", "pytest", "pytest", "pytest-cov", "pytest", "pytest", "pytest-cov", "typing", "ipython", "ipykernel", "jupyter-client", "nbconvert", "nbformat", "pytest", "pytest-cov"]
 
 [[package]]
 name = "zict"
@@ -2254,7 +2254,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=1.2.3)", "pytest-flake8", "pyt
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7, <3.9"
-content-hash = "c030bff4cf07b5efe78b306fa3677a191e9e731c5c33d0e5f025f538d4be1f8e"
+content-hash = "d0fa5607de49f6e1b0f096edf8ec969ab5d57f7177b1b4ef9938601c8337e8a6"
 
 [metadata.files]
 alabaster = [
@@ -2482,8 +2482,8 @@ darglint = [
     {file = "darglint-1.8.0.tar.gz", hash = "sha256:aa605ef47817a6d14797d32b390466edab621768ea4ca5cc0f3c54f6d8dcaec8"},
 ]
 dask = [
-    {file = "dask-2021.8.1-py3-none-any.whl", hash = "sha256:61504a7d369081fdf417e8a1dcb461181416f8d0638073105788592bd1bf3eb7"},
-    {file = "dask-2021.8.1.tar.gz", hash = "sha256:89efe49dfef162387a89c8b255b30ef495856405786ef94884df985fe1a344bd"},
+    {file = "dask-2021.9.1-py3-none-any.whl", hash = "sha256:816beb22d6b3f71d5bbc68ed374b53fb47feee871399dbf0e41f456092f44e62"},
+    {file = "dask-2021.9.1.tar.gz", hash = "sha256:e11f2bf2cac809e5408fc107dcf727af3bc3472160f206cb4b828211396ad65c"},
 ]
 datashader = [
     {file = "datashader-0.12.1-py2.py3-none-any.whl", hash = "sha256:a19e89ddf44a817c8136db8fd4727d08ca38022248b9b3648038438ab58a7b1b"},
@@ -2509,8 +2509,8 @@ distlib = [
     {file = "distlib-0.3.1.zip", hash = "sha256:edf6116872c863e1aa9d5bb7cb5e05a022c519a4594dc703843343a9ddd9bff1"},
 ]
 distributed = [
-    {file = "distributed-2021.8.1-py3-none-any.whl", hash = "sha256:2ac3df144772ab2f959a71af3962c5adb5d0bd826a2a618bf3ce44df15107482"},
-    {file = "distributed-2021.8.1.tar.gz", hash = "sha256:c13ac10ecd9ee5f0ff67f5697149062d6e483f23a079918df1ab2e19b11fa77d"},
+    {file = "distributed-2021.9.1-py3-none-any.whl", hash = "sha256:b21c3e73fbb836ec6ea2f267e0fc4efce0b25e6b5d0989bd54f287bee4cb1c12"},
+    {file = "distributed-2021.9.1.tar.gz", hash = "sha256:f4deb96a9dbef5b04ad030ab905dfed71b893d79a368bd5787b21268b4ed5ff8"},
 ]
 docutils = [
     {file = "docutils-0.16-py2.py3-none-any.whl", hash = "sha256:0c5b78adfbf7762415433f5515cd5c9e762339e23369dbe8000d84a4bf4ab3af"},
@@ -2666,14 +2666,18 @@ kiwisolver = [
     {file = "kiwisolver-1.3.1-cp37-cp37m-manylinux2014_ppc64le.whl", hash = "sha256:1e1bc12fb773a7b2ffdeb8380609f4f8064777877b2225dec3da711b421fda31"},
     {file = "kiwisolver-1.3.1-cp37-cp37m-win32.whl", hash = "sha256:72c99e39d005b793fb7d3d4e660aed6b6281b502e8c1eaf8ee8346023c8e03bc"},
     {file = "kiwisolver-1.3.1-cp37-cp37m-win_amd64.whl", hash = "sha256:8be8d84b7d4f2ba4ffff3665bcd0211318aa632395a1a41553250484a871d454"},
+    {file = "kiwisolver-1.3.1-cp38-cp38-macosx_10_9_universal2.whl", hash = "sha256:24cc411232d14c8abafbd0dddb83e1a4f54d77770b53db72edcfe1d611b3bf11"},
     {file = "kiwisolver-1.3.1-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:31dfd2ac56edc0ff9ac295193eeaea1c0c923c0355bf948fbd99ed6018010b72"},
+    {file = "kiwisolver-1.3.1-cp38-cp38-macosx_11_0_arm64.whl", hash = "sha256:ef6eefcf3944e75508cdfa513c06cf80bafd7d179e14c1334ebdca9ebb8c2c66"},
     {file = "kiwisolver-1.3.1-cp38-cp38-manylinux1_i686.whl", hash = "sha256:563c649cfdef27d081c84e72a03b48ea9408c16657500c312575ae9d9f7bc1c3"},
     {file = "kiwisolver-1.3.1-cp38-cp38-manylinux1_x86_64.whl", hash = "sha256:78751b33595f7f9511952e7e60ce858c6d64db2e062afb325985ddbd34b5c131"},
     {file = "kiwisolver-1.3.1-cp38-cp38-manylinux2014_aarch64.whl", hash = "sha256:a357fd4f15ee49b4a98b44ec23a34a95f1e00292a139d6015c11f55774ef10de"},
     {file = "kiwisolver-1.3.1-cp38-cp38-manylinux2014_ppc64le.whl", hash = "sha256:5989db3b3b34b76c09253deeaf7fbc2707616f130e166996606c284395da3f18"},
     {file = "kiwisolver-1.3.1-cp38-cp38-win32.whl", hash = "sha256:c08e95114951dc2090c4a630c2385bef681cacf12636fb0241accdc6b303fd81"},
     {file = "kiwisolver-1.3.1-cp38-cp38-win_amd64.whl", hash = "sha256:44a62e24d9b01ba94ae7a4a6c3fb215dc4af1dde817e7498d901e229aaf50e4e"},
+    {file = "kiwisolver-1.3.1-cp39-cp39-macosx_10_9_universal2.whl", hash = "sha256:6d9d8d9b31aa8c2d80a690693aebd8b5e2b7a45ab065bb78f1609995d2c79240"},
     {file = "kiwisolver-1.3.1-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:50af681a36b2a1dee1d3c169ade9fdc59207d3c31e522519181e12f1b3ba7000"},
+    {file = "kiwisolver-1.3.1-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:792e69140828babe9649de583e1a03a0f2ff39918a71782c76b3c683a67c6dfd"},
     {file = "kiwisolver-1.3.1-cp39-cp39-manylinux1_i686.whl", hash = "sha256:a53d27d0c2a0ebd07e395e56a1fbdf75ffedc4a05943daf472af163413ce9598"},
     {file = "kiwisolver-1.3.1-cp39-cp39-manylinux1_x86_64.whl", hash = "sha256:834ee27348c4aefc20b479335fd422a2c69db55f7d9ab61721ac8cd83eb78882"},
     {file = "kiwisolver-1.3.1-cp39-cp39-manylinux2014_aarch64.whl", hash = "sha256:5c3e6455341008a054cccee8c5d24481bcfe1acdbc9add30aa95798e95c65621"},
@@ -2683,6 +2687,7 @@ kiwisolver = [
     {file = "kiwisolver-1.3.1-pp36-pypy36_pp73-macosx_10_9_x86_64.whl", hash = "sha256:0cd53f403202159b44528498de18f9285b04482bab2a6fc3f5dd8dbb9352e30d"},
     {file = "kiwisolver-1.3.1-pp36-pypy36_pp73-manylinux2010_x86_64.whl", hash = "sha256:33449715e0101e4d34f64990352bce4095c8bf13bed1b390773fc0a7295967b3"},
     {file = "kiwisolver-1.3.1-pp36-pypy36_pp73-win32.whl", hash = "sha256:401a2e9afa8588589775fe34fc22d918ae839aaaf0c0e96441c0fdbce6d8ebe6"},
+    {file = "kiwisolver-1.3.1-pp37-pypy37_pp73-macosx_10_9_x86_64.whl", hash = "sha256:d6563ccd46b645e966b400bb8a95d3457ca6cf3bba1e908f9e0927901dfebeb1"},
     {file = "kiwisolver-1.3.1.tar.gz", hash = "sha256:950a199911a8d94683a6b10321f9345d5a3a8433ec58b217ace979e18f16e248"},
 ]
 livereload = [
@@ -3612,9 +3617,9 @@ xarray = [
     {file = "xarray-0.16.2.tar.gz", hash = "sha256:38e8439d6c91bcd5b7c0fca349daf8e0643ac68850c987262d53526e9d7d01e4"},
 ]
 xdoctest = [
-    {file = "xdoctest-0.15.4-py2.py3-none-any.whl", hash = "sha256:4b91eb67e45e51a254ff9370adb72a0c82b08289844c95cfd3a1186d7ec4f694"},
-    {file = "xdoctest-0.15.4-py3-none-any.whl", hash = "sha256:33d4a12cf70da245ca3f71be9ef03e0615fa862826bf6a08e8f025ce693e496d"},
-    {file = "xdoctest-0.15.4.tar.gz", hash = "sha256:ef1f93d2147988d3cb6f35c026ec32aca971923f86945a775f61e2f8de8505d1"},
+    {file = "xdoctest-0.15.9-py2.py3-none-any.whl", hash = "sha256:0aa507cd2260e8d88adf1f8ef93d1710b78f2c0c21f007ea95562a8f3be7cd71"},
+    {file = "xdoctest-0.15.9-py3-none-any.whl", hash = "sha256:1c7a713cab41ec50e0ebca1ad5a8e02c2202f1b81f963fa970fec9c87bbcd4f7"},
+    {file = "xdoctest-0.15.9.tar.gz", hash = "sha256:84b00921d9fd6df774b1c5f23a96c65cc35ce78147679b31af95507670547655"},
 ]
 zict = [
     {file = "zict-2.0.0-py3-none-any.whl", hash = "sha256:26aa1adda8250a78dfc6a78d200bfb2ea43a34752cf58980bca75dde0ba0c6e9"},
